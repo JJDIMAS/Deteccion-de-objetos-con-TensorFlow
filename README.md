@@ -78,6 +78,10 @@ rcdll.dll
 C:\Program Files (x86)\Windows Kits\10\bin\10.0.18362.0\x86
 ```
 * A
-````
+```
 C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin
-```  
+```
+### Problema de OpenCv
+Es importante recordar que si ejecutamos el ejemplo por default de tensorflow nos actualizará la libreria a la versión 2 y estó dará errores para evitarlos se debe
+desinstalar la version actual con pip e instalar nuevamente la versión 1.5. 
+---
