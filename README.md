@@ -52,7 +52,7 @@ Nos ubicamos en la carpeta donde se haya descargado y lo instalamos con el sigui
 ```
 pip install opencv_python-4.4.0-cp37-cp37m-win_amd64.whl
 ```
-* Regresamos a la ruta _../models/research/object_detection/_
+* Regresamos a la ruta _../models/research/_
 * Ejecutamos jupyter notebook
 ```
 jupyter notebook 
