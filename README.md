@@ -81,7 +81,7 @@ C:\Program Files (x86)\Windows Kits\10\bin\10.0.18362.0\x86
 ```
 C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin
 ```
-###Error de instalacion de pycocotools
+### Error de instalacion de pycocotools
 * Instalamos directamente desde el repo de git con el siguiente comando:
 ```
 pip install "git+https://github.com/philferriere/cocoapi#egg=pycocotools"
