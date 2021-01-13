@@ -86,7 +86,7 @@ C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin
 ```
 pip install "git+https://github.com/philferriere/cocoapi#egg=pycocotools"
 ```
-### Problema de OpenCv
+### Problema de TensorFlow
 Es importante recordar que si ejecutamos el ejemplo por default de tensorflow nos actualizará la libreria a la versión 2 y estó dará errores para evitarlos se debe
 desinstalar la version actual con pip e instalar nuevamente la versión 1.15. 
 ---
