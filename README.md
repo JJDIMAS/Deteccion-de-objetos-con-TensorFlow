@@ -88,5 +88,5 @@ pip install "git+https://github.com/philferriere/cocoapi#egg=pycocotools"
 ```
 ### Problema de OpenCv
 Es importante recordar que si ejecutamos el ejemplo por default de tensorflow nos actualizará la libreria a la versión 2 y estó dará errores para evitarlos se debe
-desinstalar la version actual con pip e instalar nuevamente la versión 1.5. 
+desinstalar la version actual con pip e instalar nuevamente la versión 1.15. 
 ---
