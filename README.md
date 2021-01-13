@@ -32,7 +32,7 @@ conda activate [nombre_del_ambiente]
 pip install TensorFlow==1.15 lxml pillow matplotlib jupyter contextlib2 cython tf_slim
 ```
 * Nos movemos a al directorio donde clonamos el repositorio de TensorFlow y nos ubicamos en la ruta _../models/research/_
-* Descargamos la versión protoc-3.14.0-win32 del [directorio de versiones](https://github.com/protocolbuffers/protobuf/releases) en github.
+* Descargamos protobuf, la versión protoc-3.14.0-win32 del [directorio de versiones](https://github.com/protocolbuffers/protobuf/releases) en github.
 Extraemos y movemos el ejecutable ubicado en _../protoc-3.14.0-win32/bin/_ al directorio _../models/research/_
 * Compilamos el protoc en la consola de conda con el siguiente comando 
 ```
@@ -41,7 +41,7 @@ protoc object_detection/protos/*.proto --python_out=.
 * Vamos a construir e instalar el archivo setup.py con los siguientes comandos
 ```
 python setup.py build
-python setup.py build
+python setup.py install
 ```
 * Instalamos pycocotools
 ```
