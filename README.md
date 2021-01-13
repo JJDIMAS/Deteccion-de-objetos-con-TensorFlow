@@ -47,7 +47,7 @@ python setup.py install
 ```
 pip install pycocotools
 ```
-*Instalamos la versión de opencv que sea compatible con nuestra versión de python, en este proyecto se utilizó el binario _opencv_python-4.4.0-cp37-cp37m-win_amd64.whl_ .
+* Instalamos de este [link](https://www.lfd.uci.edu/~gohlke/pythonlibs/#opencv) la versión de opencv que sea compatible con nuestra versión de python, en este proyecto se utilizó el binario _opencv_python-4.4.0-cp37-cp37m-win_amd64.whl_ .
 Nos ubicamos en la carpeta donde se haya descargado y lo instalamos con el siguiente comando:
 ```
 pip install opencv_python-4.4.0-cp37-cp37m-win_amd64.whl
@@ -80,6 +80,11 @@ C:\Program Files (x86)\Windows Kits\10\bin\10.0.18362.0\x86
 * A
 ```
 C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin
+```
+###Error de instalacion de pycocotools
+* Instalamos directamente desde el repo de git con el siguiente comando:
+```
+pip install "git+https://github.com/philferriere/cocoapi#egg=pycocotools"
 ```
 ### Problema de OpenCv
 Es importante recordar que si ejecutamos el ejemplo por default de tensorflow nos actualizará la libreria a la versión 2 y estó dará errores para evitarlos se debe
